@@ -10,6 +10,7 @@ function calculate(){
     result = document.getElementById('result');
     volume = document.getElementById('input_volume');
     strengh = document.getElementById('input_strengh');
+    cost = document.getElementById('input_cost');
 
-    result.innerHTML = volume.value * strengh.value
+    result.innerHTML = (volume.value * strengh.value / cost.value) * 100
 }
