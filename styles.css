@@ -42,3 +42,30 @@ body {
     background-color: rgb(34, 37, 53);
     padding: 25px;
 }
+
+input {
+    background-color: #def4df; /* Green */
+    border: none;
+    color: rgb(19, 16, 12);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+input:hover {
+    background-color: #ffffff;
+}
+
+.res {
+    color: rgb(234, 44, 69);
+    font-size: 50px;
+    text-align: center;
+}
+
+.yam {
+    text-decoration: none;
+    font-size: 16px;
+    color: antiquewhite;
+}

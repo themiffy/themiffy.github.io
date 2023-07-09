@@ -4,17 +4,20 @@
   <meta charset="utf-8" />
   <link href="styles.css" rel="stylesheet">
   <script src="script.js"></script>
-  <title>Коэффициент Кузьмина–Машкунова</title>
+  <title>Калькулятор освобождения</title>
  </head>
+
+<!-- Ты чё, такой умный чтоли? Сюда нельзя смотреть, это секрет -->
+
  <body>
-    <p>Объём в литрах (0.5л водки)</p>
-    <input type="text" class="input" id = "input_volume">
-    <p>Крепость в градусах (40 для водки)</p>
-    <input type="text" class="input" id = "input_strengh">
-    <p>Стоимость в рублях (350р)</p>
-    <input type="text" class="input" id = "input_cost">
+    <p class = 'yam'>Количество прослушанных песен Ямобура</p>
+    <input type="text" class="input" id = "song_quantity">
+    <p class = 'yam'>Ваш вес в килограммах</p>
+    <input type="text" class="input" id = "weight">
+    <!--<p>Стоимость в рублях (350р)</p>
+    <input type="text" class="input" id = "input_cost"> -->
     <br>
     <button сlass="calc" onclick="calculate()" id="calc_btn">Расчитать</button>
-    <p id="result"></p>
+    <p class = 'res' id="result"></p>
  </body>
 </html>
